@@ -1,0 +1,77 @@
+.caixa1{
+    margin: 35px;
+    background-color: rgb(165, 92, 23);
+    padding: 15px;
+    border: 5px solid rgb(7, 2, 2);
+    border-radius: 400px;
+    max-width: 300px;
+    min-width: 300px
+}
+
+.caixa2{
+    background-color: bisque;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    padding: 20px;
+    border: 5px solid black;
+    border-radius: 300px;
+    max-width: 400px;
+    min-width: 400px;
+
+}
+
+h1{
+    text-align: center;
+    color: rgb(4, 4, 12);
+}
+
+.exibição-block{
+    display: block;
+    background-color: cadetblue;
+    margin-bottom: 50px;
+
+}
+    
+.exibicao-inline{
+    display: inline;
+    background-color: rgb(126, 78, 16);
+    margin-right: 10px;
+}
+
+.exibiçao-inline-block{
+    display: inline-block;
+    background-color: coral;
+    width: 100px;
+    height: 50px;
+
+}
+
+.overflow-visiblo{
+    width: 200px;
+    height: 60px;
+    background-color: rgb(44, 33, 138);
+    margin-bottom: 10px;
+    overflow: visible
+}
+.overflow-hidden{
+    width: 200px;
+    height: 60;
+    background-color: cadetblue;
+    margin-bottom: 10px;
+    overflow: hidden;
+
+}
+
+.overflow-scroll{
+    width: 200px;
+    height: 60px;
+    background-color: blueviolet;
+    overflow: scroll;
+
+}
+.caixaa1{
+
+
+}
+

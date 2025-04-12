@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: unset;
+            background-color: rgb(19, 8, 173);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+
+        }
+
+        .Container{
+            display: flex;
+            gap: 30px;
+        }
+
+        .Card{
+            background-color: white;
+            border-radius: 15px;
+            box-shadow: 10px 4px 10px rgb(28, 8, 146);
+            overflow: hidden;
+            width: 200px;
+            transition: transform 0.3s;
+        }
+
+        .Card:hover{
+            transform: translateY(-10px);
+        }
+
+        .Card-container{
+            padding: 15px;
+            text-align: center;
+        }
+
+        .Card-container h3{
+            margin: 10px 0;
+            color:rgb(53, 93, 223)
+        }
+
+        .Card-container p{
+            color: rgb(7, 8, 10);
+            font-size: 14px;
+        }
+
+        .btn{
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: rgb(153, 41, 138);
+            color: rgb(145, 36, 126);
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color;
+        }
+
+        .btn{
+            background-color: rgb(52, 103, 179) ;
+        }
+
+        .btn:hover{
+            background-color: rgb(221, 212, 220);
+        }
+
+        
+
+        .Card img{
+            width: 100%;
+            height:200px;
+            object-fit: cover;
+          
+        }
+
+        .Card:not(:hover){
+            opacity: 0.6;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="Container">
+        <div class="Card">
+            <img src="casa pala fita.gif" alt="casa palafita">
+            <div class="Card-container">
+                <h3>Plano básico</h3>
+                <p>Ideal para lisos</p>
+                <a href="###" class="btn">Assinar</a>
+            </div>
+        </div>
+    
+            <div class="Card">
+                <img src="casa media.jpg" alt="casa mediana">
+                <div class="Card-container">
+                    <h3>Plano básico</h3>
+                    <p>Ideal para lisos</p>
+                    <a href="###" class="btn">Assinar</a>
+                </div>
+            </div>
+       
+           
+        <div class="Card">
+            <img src="casa de luxo.jpg" alt="casa de luxo">
+            <div class="Card-container">
+                <h3>Plano MASTER</h3>
+                <p>Ideal para quem quer gastar</p>
+                <a href="###" class="btn">Assinar</a>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
